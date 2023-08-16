@@ -18,3 +18,5 @@ Scenario: Verificar detalhes de pessoa
 # Testando commit 2
 # Equalizando 3
 # Equalizando 4
+# Equalizando 4
+# Alteração branch padrão
