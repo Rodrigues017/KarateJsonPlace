@@ -15,3 +15,4 @@ Scenario: Verificar detalhes de pessoa
     And match response.email == 'Sincere@april.biz'
 
 # Testando commit
+# descontinuada, utilizar somente a UAT
