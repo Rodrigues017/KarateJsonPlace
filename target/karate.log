@@ -1,0 +1,115 @@
+10:43:46.630 [main]  INFO  com.intuit.karate - Karate version: 1.5.0-SNAPSHOT
+10:43:48.647 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:43:49.221 [main]  DEBUG com.intuit.karate - response time in milliseconds: 573
+1 < 200
+1 < Date: Wed, 16 Aug 2023 13:43:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1691873766
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bEBc7ghbgisBvLXk%2Fs2u3Rq5gHZ3KOVuExWqgdlgzGo0xMdhtV4%2FfQwCS6SdvZ%2FiUOGlgq7ZNzgDiMwVJuHBBqVi0AytJtswQnyz0CiwOaGiGTla6W6MQfEfaVLaXsUeOP5VUgV%2BEX63Mx6i1Cz2"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f7a1bc6c89a1d40-GIG
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+10:43:49.274 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:43:49.383 [main]  DEBUG com.intuit.karate - response time in milliseconds: 108
+1 < 200
+1 < Date: Wed, 16 Aug 2023 13:43:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1691873766
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 0
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jsxqCcCa7YmIvns2%2FlMRUfabT73%2Bn5%2FIu%2FHaubRfTRHQW%2FOgqPGgnndpYnraBqezNIG7%2F%2BVNmAwMK%2BAuHQnsAuyZl3Rzk8W%2FH28vTN9m%2B0x5xRe7%2BKjc8ErU3BfIs3UF%2F1e2aazvhbP4L07MDmzX"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f7a1bc94aeb2771-GIG
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+10:43:50.098 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) JsonPlace.feature
