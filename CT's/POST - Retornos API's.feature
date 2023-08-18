@@ -14,7 +14,7 @@ Scenario: Validar status para valor de ID vazio
       When method get
       Then status 405
 
-Scenario: Validar status para valor de ID nullo
+Scenario: Validar status para valor de ID null
       Given path 'pet', 'null'
       When method get
       Then status 404
