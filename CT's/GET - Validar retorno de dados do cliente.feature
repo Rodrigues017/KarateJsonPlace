@@ -34,4 +34,4 @@ Scenario: Verificar dados retornados de um usuário
      And match response.company.bs == 'harness real-time e-markets'
 
 
-#Páginas de testes: https://api.nasa.gov/, https://swapi.dev/, https://jsonplaceholder.typicode.com/
+#Páginas de testes: https://api.nasa.gov/, https://swapi.dev/,, https://jsonplaceholder.typicode.com/

@@ -5,24 +5,24 @@ Background:
 #Páginas de testes: https://api.nasa.gov/, https://swapi.dev/, https://jsonplaceholder.typicode.com/
 
 @environmentHealth
-Scenario: Verificar resposta de api
+Scenario: Verificar resposta de apii
     Given url baseURL + '/users/1'
     When method get
     Then status 200
 
 
 @high-priority
-Scenario: Validar se existe ID
+Scenario: Validar se existe IDs
      Given url baseURL + '/users/1'
      When method get
      Then status 200
      And match response contains { id: '#notnull'}
-Scenario: Validar se existe name
+Scenario: Validar se existe names
     Given url baseURL + '/users/1'
     When method get
     Then status 200
     And match response contains { name: '#notnull'}
-Scenario: Validar se existe username
+Scenario: Validar se existe usernames
     Given url baseURL + '/users/1'
     When method get
     Then status 200

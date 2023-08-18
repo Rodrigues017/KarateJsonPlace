@@ -1,4 +1,4 @@
-Feature: Validar disponibilidade API JSONPlaceholder
+Feature: Validar disponibilidade API JSONPlaceholders
 
 Background:
     * def baseURL = 'https://jsonplaceholder.typicode.com'
